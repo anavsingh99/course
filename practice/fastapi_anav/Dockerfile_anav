@@ -1,8 +1,8 @@
 FROM tiangolo/uvicorn-gunicorn-fastapi:python3.7-alpine3.8
 
 COPY anav.py anav.py
-COPY requirements_anav.txt requirements_anav.txt
+COPY requirements.txt requirements.txt
 
-RUN pip3 install -r requirements_anav.txt
+RUN pip3 install -r requirements.txt
 
 ENTRYPOINT ["./anav.py"]

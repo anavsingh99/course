@@ -1,5 +1,3 @@
 fastapi
-typing
-pydantic
-boto3
-requests
+pyowm
+uvicorn
