@@ -6,6 +6,8 @@ Anav Singh's DS3002 Project: API-based Chatbot
 
 Github URL: https://github.com/anavsingh99/course/tree/main/practice/fastapi_anav
 
+Docker Hub URL: https://hub.docker.com/r/anavsingh99/anav_container
+
 The API has various geography and location-related endpoints to GET data.
 
 OpenWeatherMap's API has been used to gather data for temperature and forecasts. Check it out at: https://openweathermap.org/api
